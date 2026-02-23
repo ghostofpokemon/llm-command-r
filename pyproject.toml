@@ -24,3 +24,7 @@ command_r = "llm_command_r"
 
 [project.optional-dependencies]
 test = ["pytest"]
+
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
